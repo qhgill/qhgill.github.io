@@ -2,7 +2,6 @@ import Image from "next/image";
 import headshot from "@/public/headshot.jpg";
 import { CONTACTS } from "@/data/contacts";
 import Link from "next/link";
-import Navbar from "@/components/navbar";
 
 const Header = () => {
   return (
@@ -28,7 +27,6 @@ const Header = () => {
             </div>
           ))}
         </div>
-        <Navbar />
       </div>
     </div>
   );

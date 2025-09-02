@@ -6,7 +6,6 @@ const Projects = () => {
   return (
     <div className="flex flex-col items-center w-full">
       <Title title="Projects" />
-      <p>WORK IN PROGRESS</p>
       <div className="grid grid-cols-3 items-center justify-center gap-20 mx-20 my-10">
         {PROJECTS.map(
           (

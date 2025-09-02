@@ -22,29 +22,36 @@ const Card = ({
   deployment,
 }: ProjectProps) => {
   return (
-    <div className="border-1 border-stone-600 flex flex-col items-center rounded-3xl p-3">
+    <div className=" bg-gradient-to-br from-stone-500 to-stone-200 flex flex-col items-center rounded-3xl p-10 space-y-3 w-full h-full">
       <Image
         src={thumbnail}
         alt={title}
-        className="object-cover aspect-square rounded-3xl w-10/12"
+        className="object-cover aspect-video rounded-3xl w-10/12"
       />
-      <p>{title}</p>
-      <p>{role}</p>
-
-      {techstack.map((icon, index) => (
-        <div key={index}>{icon}</div>
-      ))}
-      <p>{description}</p>
-      <div className="flex">
-        <Link href={github} target="_blank">
-          <FaGithub />
-        </Link>
-        {deployment && (
-          <Link href={deployment} target="_blank">
-            <FaLink />
+      <div className="flex font-bold text-2xl justify-between w-full">
+        <p className="font-bold text-2xl">{title}</p>{" "}
+        <div className="flex space-x-2">
+          <Link href={github} target="_blank">
+            <FaGithub />
           </Link>
-        )}
+          {deployment && (
+            <Link href={deployment} target="_blank">
+              <FaLink />
+            </Link>
+          )}
+        </div>
       </div>
+
+      <p className="font-semibold text-xl w-full">Role: {role}</p>
+      <div className="flex justify-start w-full space-x-3 text-xl text-stone-800">
+        {techstack.map((icon, index) => (
+          <div key={index} className="text-xl">
+            {icon}
+          </div>
+        ))}
+      </div>
+
+      <p>{description}</p>
     </div>
   );
 };
