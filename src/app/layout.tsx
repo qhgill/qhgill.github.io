@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} antialiased overflow-x-hidden min-h-screen`}
+        className={`${poppins.variable} antialiased overflow-x-hidden min-h-screen scroll-smooth`}
       >
         {children}
       </body>

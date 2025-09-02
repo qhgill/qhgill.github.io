@@ -5,14 +5,14 @@ export const NAV = [
   },
   {
     title: "projects",
-    ref: "#experience",
+    ref: "#projects",
   },
   {
     title: "skills",
-    ref: "#experience",
+    ref: "#skills",
   },
   {
     title: "contact",
-    ref: "#experience",
+    ref: "#contact",
   },
 ];

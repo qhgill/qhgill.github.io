@@ -18,11 +18,11 @@ const Section = ({
   description,
 }: SectionProps) => {
   return (
-    <div className="flex items-center">
+    <div className="flex items-center text-stone-800 w-full">
       <Image
         src={icon}
         alt={organization}
-        className="aspect-square object-cover w-1/7"
+        className="aspect-square object-cover w-1/7 mr-10"
       />
       <div className="flex flex-col items-start space-y-5">
         <p className="text-3xl font-bold">{organization}</p>
