@@ -9,7 +9,7 @@ const Navbar = () => {
   const [open, handleOpen] = useState(false);
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between lg:justify-evenly w-full py-3 bg-white">
+    <div className="sticky top-0 z-50 flex flex-col lg:flex-row items-center justify-between lg:justify-evenly w-full py-3 bg-white">
       <div className="flex justify-between w-full px-8">
         <Link href="/" className="text-2xl font-bold text-stone-900">
           QUIN GILL
@@ -46,7 +46,11 @@ const Navbar = () => {
 
       <div className="hidden lg:flex justify-end space-x-20 text-stone-700 text-2xl font-semibold w-2/3 pr-8">
         {NAV.map(({ title, ref }, index) => (
-          <Link key={index} href={ref}>
+          <Link
+            key={index}
+            href={ref}
+            className="hover:text-green-800 hover:scale-105 transition-all duration-300"
+          >
             {title}
           </Link>
         ))}

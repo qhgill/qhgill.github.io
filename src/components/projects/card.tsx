@@ -38,11 +38,19 @@ const Card = ({
       <div className="flex font-bold text-2xl justify-between w-full">
         <p className="font-bold text-2xl">{title}</p>{" "}
         <div className="flex space-x-2">
-          <Link href={github} target="_blank">
+          <Link
+            href={github}
+            target="_blank"
+            className="hover:scale-110 hover:text-green-800 transition-all duration-300"
+          >
             <FaGithub />
           </Link>
           {deployment && (
-            <Link href={deployment} target="_blank">
+            <Link
+              href={deployment}
+              target="_blank"
+              className="hover:scale-110 hover:text-green-800 transition-all duration-300"
+            >
               <FaLink />
             </Link>
           )}

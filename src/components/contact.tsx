@@ -17,7 +17,7 @@ const Contact = () => {
             transition={{ duration: 0.5, ease: "easeOut", delay: index * 0.2 }}
           >
             <Link
-              className="flex flex-col items-center text-2xl"
+              className="flex flex-col items-center text-2xl hover:scale-110 hover:text-green-800 transition-all duration-300"
               href={link}
               target="_blank"
             >

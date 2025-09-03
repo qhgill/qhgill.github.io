@@ -20,7 +20,7 @@ export const CONTACTS = [
   },
   {
     title: "Resume",
-    link: "/resume/QuinGillResume-Aug26.pdf",
+    link: "/resume/QuinGillResume-Sept25.pdf",
     icon: <FaFileAlt />,
   },
 ];

@@ -37,7 +37,10 @@ const Header = () => {
         </p>
         <div className="flex justify-center md:justify-start space-x-10 text-white text-3xl w-full">
           {CONTACTS.map(({ title, link, icon }, index) => (
-            <div key={index}>
+            <div
+              key={index}
+              className="hover:scale-110 hover:text-green-400 transition-all duration-300"
+            >
               <Link href={link} target="_blank">
                 {icon}
               </Link>

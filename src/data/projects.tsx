@@ -170,7 +170,7 @@ export const PROJECTS: ProjectProps[] = [
     thumbnail: h4b,
     github: "https://github.com/acm-ucr/h4b-website",
     description:
-      "Led a group of 10+ developers to create the official website for Hungry 4 Biscuits, a student organization combatting food insecurit in the inland empire.",
+      "Led a group of 10+ developers to create the official website for Hungry 4 Biscuits, a student organization combatting food insecurity in the inland empire.",
     deployment: "https://h4b.ucrhighlanders.org/",
   },
   {
