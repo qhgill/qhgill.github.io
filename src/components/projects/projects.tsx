@@ -4,9 +4,9 @@ import Card from "@/components/projects/card";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col items-center w-full">
+    <div className="flex flex-col items-center w-full bg-white">
       <Title title="Projects" />
-      <div className="grid grid-cols-3 items-center justify-center gap-20 mx-20 my-10">
+      <div className="grid grid-cols-3 items-center justify-center gap-20 w-11/12 my-10">
         {PROJECTS.map(
           (
             {

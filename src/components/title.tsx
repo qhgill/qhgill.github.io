@@ -5,10 +5,10 @@ const Title = ({ title }: props) => {
   return (
     <div
       id={title.toLowerCase()}
-      className="text-4xl text-stone-800 font-bold p-4 w-auto"
+      className="text-6xl text-stone-900 font-bold p-10 w-auto"
     >
       <p>{title}</p>
-      <span className="bg-stone-800 block h-1 mt-1" />
+      <span className="bg-stone-900 block h-1 mt-1" />
     </div>
   );
 };

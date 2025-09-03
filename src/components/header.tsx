@@ -22,7 +22,9 @@ const Header = () => {
         <div className="flex justify-start space-x-10 text-white text-3xl w-full">
           {CONTACTS.map(({ title, link, icon }, index) => (
             <div key={index}>
-              <Link href={link}>{icon}</Link>
+              <Link href={link} target="_blank">
+                {icon}
+              </Link>
               <p className="hidden">{title}</p>
             </div>
           ))}

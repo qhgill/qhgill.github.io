@@ -22,7 +22,7 @@ const Card = ({
   deployment,
 }: ProjectProps) => {
   return (
-    <div className=" bg-gradient-to-br from-stone-500 to-stone-200 flex flex-col items-center rounded-3xl p-10 space-y-3 w-full h-full">
+    <div className="text-stone-900 bg-gradient-to-br from-stone-400 to-stone-200 flex flex-col items-center rounded-3xl p-10 space-y-3 w-full h-full">
       <Image
         src={thumbnail}
         alt={title}

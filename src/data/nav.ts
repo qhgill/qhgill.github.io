@@ -12,6 +12,10 @@ export const NAV = [
     ref: "#skills",
   },
   {
+    title: "education",
+    ref: "#education",
+  },
+  {
     title: "contact",
     ref: "#contact",
   },
