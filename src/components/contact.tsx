@@ -1,22 +1,30 @@
+"use client";
 import Title from "@/components/title";
 import { CONTACTS } from "@/data/contacts";
 import Link from "next/link";
+import { motion } from "motion/react";
 
 const Contact = () => {
   return (
     <div className="flex flex-col items-center w-full bg-white text-black">
       <Title title="Contact" />
-      <div className="flex justify-evenly my-10 w-full">
+      <div className="grid grid-cols-2 gap-4 md:flex justify-evenly my-10 w-full">
         {CONTACTS.map(({ title, link, icon }, index) => (
-          <Link
-            className="flex flex-col items-center text-2xl"
+          <motion.div
             key={index}
-            href={link}
-            target="_blank"
+            initial={{ y: -20, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, ease: "easeOut", delay: index * 0.2 }}
           >
-            <div className="text-4xl"> {icon}</div>
-            <p>{title}</p>
-          </Link>
+            <Link
+              className="flex flex-col items-center text-2xl"
+              href={link}
+              target="_blank"
+            >
+              <div className="text-4xl"> {icon}</div>
+              <p>{title}</p>
+            </Link>
+          </motion.div>
         ))}
       </div>
       <p className="">© Quin Gill</p>

@@ -20,7 +20,7 @@ export const CONTACTS = [
   },
   {
     title: "Resume",
-    link: "https://drive.google.com/file/d/1eY7aIpCj7qSYrd-LnZGCqGQqtV2Jm4Bt/view?usp=sharing",
+    link: "/resume/QuinGillResume-Aug26.pdf",
     icon: <FaFileAlt />,
   },
 ];

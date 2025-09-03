@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div className="flex flex-col items-center w-full bg-white">
       <Title title="Projects" />
-      <div className="grid grid-cols-3 items-center justify-center gap-20 w-11/12 my-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-center justify-center gap-10 md:gap-20 w-11/12 my-10">
         {PROJECTS.map(
           (
             {

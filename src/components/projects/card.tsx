@@ -1,6 +1,8 @@
+"use client";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { FaGithub, FaLink } from "react-icons/fa";
+import { motion } from "motion/react";
 
 export interface ProjectProps {
   title: string;
@@ -22,11 +24,16 @@ const Card = ({
   deployment,
 }: ProjectProps) => {
   return (
-    <div className="text-stone-900 bg-gradient-to-br from-stone-400 to-stone-200 flex flex-col items-center rounded-3xl p-10 space-y-3 w-full h-full">
+    <motion.div
+      initial={{ x: -20, opacity: 0 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
+      className="text-stone-900 bg-gradient-to-br from-stone-400 to-stone-200 flex flex-col items-center rounded-4xl p-8 space-y-3 w-full h-full"
+    >
       <Image
         src={thumbnail}
         alt={title}
-        className="object-cover aspect-video rounded-3xl w-10/12"
+        className="object-cover aspect-video rounded-3xl mb-6"
       />
       <div className="flex font-bold text-2xl justify-between w-full">
         <p className="font-bold text-2xl">{title}</p>{" "}
@@ -52,7 +59,7 @@ const Card = ({
       </div>
 
       <p>{description}</p>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,3 +1,4 @@
+"use client";
 import {
   SiTypescript,
   SiNextdotjs,
@@ -15,21 +16,28 @@ import { FaGitAlt } from "react-icons/fa";
 import { DiScrum } from "react-icons/di";
 import Title from "@/components/title";
 import { VscGithubProject } from "react-icons/vsc";
+import { motion } from "motion/react";
 
 const Skills = () => {
   return (
     <div className="flex flex-col items-center w-full bg-white text-stone-900">
       <Title title="Skills" />
-      <div className="grid grid-cols-3 justify-evenly items-start w-11/12 py-4 gap-5">
-        <div className="flex flex-col items-start bg-gradient-to-br from-red-200 to-red-100 rounded-2xl w-full h-full p-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 justify-evenly items-start w-11/12 py-4 gap-5">
+        <motion.div
+          initial={{ y: -20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+          className="flex flex-col items-start bg-gradient-to-br from-red-200 to-red-100 rounded-2xl w-full h-full p-4"
+        >
           <p className="text-2xl font-semibold pb-2">Languages</p>
           <ul className="ml-2 text-lg">
             <li className="flex items-center">
-              <SiTypescript /> <p className="pl-1">TypeScript</p>
-            </li>
-            <li className="flex items-center">
               <SiCplusplus /> <p className="pl-1">C++</p>
             </li>
+            <li className="flex items-center">
+              <SiTypescript /> <p className="pl-1">TypeScript</p>
+            </li>
+
             <li className="flex items-center">
               <SiJavascript /> <p className="pl-1">JavaScript</p>
             </li>
@@ -43,8 +51,13 @@ const Skills = () => {
               <SiRust /> <p className="pl-1">Rust</p>
             </li>
           </ul>
-        </div>
-        <div className="flex flex-col items-start bg-gradient-to-br from-red-200 to-red-100 rounded-2xl w-full h-full p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
+          className="flex flex-col items-start bg-gradient-to-br from-red-200 to-red-100 rounded-2xl w-full h-full p-4"
+        >
           <p className="text-2xl font-semibold pb-2">
             Technologies & Developer Tools
           </p>
@@ -68,8 +81,13 @@ const Skills = () => {
               <SiFlask /> <p className="pl-1">Flask</p>
             </li>
           </ul>
-        </div>
-        <div className="flex flex-col items-start bg-gradient-to-br from-red-200 to-red-100 rounded-2xl w-full h-full p-4">
+        </motion.div>
+        <motion.div
+          initial={{ y: -20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, ease: "easeOut", delay: 0.4 }}
+          className="flex flex-col items-start bg-gradient-to-br from-red-200 to-red-100 rounded-2xl w-full h-full p-4"
+        >
           <p className="text-2xl font-semibold pb-2">Project Management</p>
           <ul className="ml-2 text-lg">
             <li className="flex items-center">
@@ -79,7 +97,7 @@ const Skills = () => {
               <VscGithubProject /> <p className="pl-1">GitHub Projects</p>
             </li>
           </ul>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

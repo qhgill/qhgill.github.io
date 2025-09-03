@@ -67,7 +67,7 @@ export const PROJECTS: ProjectProps[] = [
     thumbnail: textadventure,
     github: "https://github.com/qhgill/text-adventure",
     description:
-      "Led development of a text based adventure game written in C++, compiled with CMake, and tested with GoogleTest and Valgrind",
+      "Led development of a text based adventure game written in C++, compiled with CMake, and tested with GoogleTest and Valgrind.",
   },
   {
     title: "Teh Tarik Compiler",
@@ -186,7 +186,7 @@ export const PROJECTS: ProjectProps[] = [
     thumbnail: swim,
     github: "https://github.com/acm-ucr/ucr-swim-website",
     description:
-      "Developed Google Calendar integration and frontend components for UCR Swim Club's official website",
+      "Developed Google Calendar integration and frontend components for UCR Swim Club's official website.",
     deployment: "https://swim.ucrhighlanders.org/",
   },
   {
@@ -202,7 +202,7 @@ export const PROJECTS: ProjectProps[] = [
     thumbnail: robosub,
     github: "https://github.com/acm-ucr/robosub-website",
     description:
-      "Developed frontend components for UCR RoboSub's official website",
+      "Developed frontend components for UCR RoboSub's official website.",
     deployment: "https://robosub.ucrhighlanders.org/",
   },
 ];
