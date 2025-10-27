@@ -9,8 +9,12 @@ import {
   SiCmake,
   SiRust,
   SiJavascript,
+  SiPython,
+  SiScikitlearn,
+  SiJupyter,
+  SiCss3,
 } from "react-icons/si";
-import { FaReact, FaFigma } from "react-icons/fa";
+import { FaReact, FaFigma, FaAws } from "react-icons/fa";
 import { ProjectProps } from "@/components/projects/card";
 import starlight from "@/public/projects/starlight.png";
 import chaosify from "@/public/projects/chaosify.png";
@@ -24,6 +28,7 @@ import hearts from "@/public/projects/heartswebsite.png";
 import h4b from "@/public/projects/h4bwebsite.png";
 import swim from "@/public/projects/swimwebsite.png";
 import robosub from "@/public/projects/robosubwebsite.png";
+import riftrewind from "@/public/projects/tempriftrewind.png";
 
 export const PROJECTS: ProjectProps[] = [
   {
@@ -43,6 +48,23 @@ export const PROJECTS: ProjectProps[] = [
     description:
       "Developing a full-stack project application and management portal for ACM@UCR.",
     deployment: "https://starlight-nine-sigma.vercel.app/",
+  },
+  {
+    title: "YuumAI",
+    role: "Developer",
+    techstack: [
+      <FaAws key="aws" />,
+      <SiPython key="python" />,
+      <SiJupyter key="jupyter" />,
+      <SiScikitlearn key="scikitlearn" />,
+      <SiNextdotjs key="nextjs" />,
+      <SiJavascript key="js" />,
+      <SiCss3 key="css" />,
+    ],
+    thumbnail: riftrewind,
+    github: "https://github.com/syliem1/YuumAI",
+    description:
+      "Co-developed a predictive AI coach for League of Legends using AWS and SciKit-learn for the Riot x AWS Rift Rewind Hackathon 2025.",
   },
   {
     title: "Chaosify",
