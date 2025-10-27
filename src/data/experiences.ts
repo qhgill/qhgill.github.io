@@ -9,9 +9,9 @@ export const EXPERIENCES = [
     end: "present",
     icon: ACMUCR,
     description: [
-      "Utilized Next.js, React, TailwindCSS, TypeScript, and Motion.dev to develop frontend components used on websites for 7+ student organizations at UCR.",
-      "Taught 20+ weekly workshops to 100+ developers on web development and version control systems.",
-      "Used Git, GitHub, GitHub Actions, and Scrum practices to Manage and code review groups of 10+ developers over 10 week project development periods for 5+ projects.",
+      " Utilized Next.js, React, TailwindCSS, TypeScript, and Motion.dev to develop 8+ production ready websites for client organizations connecting communities with 200+ members.",
+      "Taught 40+ weekly workshops to 200+ developers on core software development and version control system skills.",
+      "Used Git, GitHub, GitHub Actions, and Scrum practices to manage and code review groups of 10+ developers over 10 week project development periods for 6+ projects.",
     ],
   },
   {
@@ -21,8 +21,9 @@ export const EXPERIENCES = [
     end: "present",
     icon: UCRENG,
     description: [
-      "Used knowledge of software development methodologies including Scrum, Kanban, Test Driven Development, and SOLID principles to grade 200+ students’ projects and exams.",
-      "Assessed student’s ability to use tools such as Googletest, GitHub actions, valgrind, GDB, and gcov through lab, project, and test assignments.",
+      "Assisted Software Construction course instructors in grading C++ programming projects for 500+ students.",
+      "Provided detailed feedback to help students develop foundational development practices and debugging skills.",
+      "Worked with instructional team to ensure reinforcement of core curriculum and fair grading practices.",
     ],
   },
 ];

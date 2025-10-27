@@ -37,6 +37,9 @@ const Education = () => {
               Languages, Compiler Design, Design of Operating Systems, Design
               and Architecture of Computer Systems, Artificial Intelligence.
             </p>
+            <p className="italic text-lg md:text-2xl">
+              Planned MS in Computer Science Fall 2026 - Spring 2027
+            </p>
           </div>
         </div>
       </motion.div>
