@@ -11,9 +11,15 @@ import {
   SiPython,
   SiGithub,
   SiGithubactions,
+  SiFirebase,
+  SiUnrealengine,
+  SiHtml5,
+  SiCss3,
 } from "react-icons/si";
-import { FaGitAlt } from "react-icons/fa";
+import { FaGitAlt, FaAws } from "react-icons/fa";
+import { PiKanban } from "react-icons/pi";
 import { DiScrum } from "react-icons/di";
+import { TbSql } from "react-icons/tb";
 import Title from "@/components/title";
 import { VscGithubProject } from "react-icons/vsc";
 import { motion } from "motion/react";
@@ -35,17 +41,22 @@ const Skills = () => {
               <SiCplusplus /> <p className="pl-1">C++</p>
             </li>
             <li className="flex items-center">
+              <SiPython /> <p className="pl-1">Python</p>
+            </li>
+            <li className="flex items-center">
               <SiTypescript /> <p className="pl-1">TypeScript</p>
             </li>
-
             <li className="flex items-center">
               <SiJavascript /> <p className="pl-1">JavaScript</p>
             </li>
             <li className="flex items-center">
-              <SiReact /> <p className="pl-1">React</p>
+              <TbSql /> <p className="pl-1">SQL</p>
             </li>
             <li className="flex items-center">
-              <SiPython /> <p className="pl-1">Python</p>
+              <SiHtml5 /> <p className="pl-1">HTML</p>
+            </li>
+            <li className="flex items-center">
+              <SiCss3 /> <p className="pl-1">CSS</p>
             </li>
             <li className="flex items-center">
               <SiRust /> <p className="pl-1">Rust</p>
@@ -63,16 +74,28 @@ const Skills = () => {
           </p>
           <ul className="ml-2 text-lg">
             <li className="flex items-center">
-              <SiNextdotjs /> <p className="pl-1">NextJs</p>
+              <SiNextdotjs /> <p className="pl-1">Next.js</p>
             </li>
             <li className="flex items-center">
-              <SiTailwindcss /> <p className="pl-1">Tailwind</p>
+              <SiReact /> <p className="pl-1">React</p>
+            </li>
+            <li className="flex items-center">
+              <FaAws /> <p className="pl-1">AWS</p>
             </li>
             <li className="flex items-center">
               <FaGitAlt /> <p className="pl-1">Git</p>
             </li>
             <li className="flex items-center">
               <SiGithub /> <p className="pl-1">GitHub</p>
+            </li>
+            <li className="flex items-center">
+              <SiUnrealengine /> <p className="pl-1">Unreal Engine 5</p>
+            </li>
+            <li className="flex items-center">
+              <SiFirebase /> <p className="pl-1">Firebase</p>
+            </li>
+            <li className="flex items-center">
+              <SiTailwindcss /> <p className="pl-1">TailwindCSS</p>
             </li>
             <li className="flex items-center">
               <SiGithubactions /> <p className="pl-1">GitHub Actions</p>
@@ -92,6 +115,9 @@ const Skills = () => {
           <ul className="ml-2 text-lg">
             <li className="flex items-center">
               <DiScrum /> <p className="pl-1">Scrum</p>
+            </li>
+            <li className="flex items-center">
+              <PiKanban /> <p className="pl-1">Kanban</p>
             </li>
             <li className="flex items-center">
               <VscGithubProject /> <p className="pl-1">GitHub Projects</p>
