@@ -28,7 +28,7 @@ import hearts from "@/public/projects/heartswebsite.png";
 import h4b from "@/public/projects/h4bwebsite.png";
 import swim from "@/public/projects/swimwebsite.png";
 import robosub from "@/public/projects/robosubwebsite.png";
-import riftrewind from "@/public/projects/tempriftrewind.png";
+import riftrewind from "@/public/projects/yuumaicover.png";
 
 export const PROJECTS: ProjectProps[] = [
   {
