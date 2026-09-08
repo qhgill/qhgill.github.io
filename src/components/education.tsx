@@ -31,7 +31,13 @@ const Education = () => {
               <p className="italic">Fall 2022 - Spring 2026</p>
             </div>
             <p className="text-base md:text-lg">
-              Data Structures and Algorithms, Discrete Structures, Formal Languages and Automata Theory, Machine Organization and Assembly Language Programming, Design and Architecture of Computer Systems, Design of Operating Systems, Compiler Design, Artificial Intelligence, Computer Graphics, Virtual Reality, Software Engineering, Edge Computing, Database Management Systems, Senior Design Projects in AI and Game Development
+              Data Structures and Algorithms, Discrete Structures, Formal
+              Languages and Automata Theory, Machine Organization and Assembly
+              Language Programming, Design and Architecture of Computer Systems,
+              Design of Operating Systems, Compiler Design, Artificial
+              Intelligence, Computer Graphics, Virtual Reality, Software
+              Engineering, Edge Computing, Database Management Systems, Senior
+              Design Projects in AI and Game Development
             </p>
           </div>
         </div>

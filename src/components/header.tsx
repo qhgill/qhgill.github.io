@@ -31,7 +31,8 @@ const Header = () => {
         </p>
 
         <p className="my-5 text-lg md:text-xl text-white text-center md:text-start">
-          Quin is a recent Bachelor of Science in Computer Science graduate from the University of California, Riverside.
+          Quin is a recent Bachelor of Science in Computer Science graduate from
+          the University of California, Riverside.
         </p>
         <div className="flex justify-center md:justify-start space-x-10 text-white text-3xl w-full">
           {CONTACTS.map(({ title, link, icon }, index) => (

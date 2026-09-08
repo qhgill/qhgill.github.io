@@ -18,7 +18,7 @@ import {
   SiUnity,
   SiCloudflare,
   SiExpo,
-  SiSupabase
+  SiSupabase,
 } from "react-icons/si";
 import { PiFileCSharp } from "react-icons/pi";
 import { FaGitAlt, FaAws } from "react-icons/fa";

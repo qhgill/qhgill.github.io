@@ -22,7 +22,7 @@ import {
   SiSupabase,
   SiGrafana,
   SiInfluxdb,
-  SiNvidia
+  SiNvidia,
 } from "react-icons/si";
 import { PiFileCSharp } from "react-icons/pi";
 import { FaReact, FaFigma, FaAws } from "react-icons/fa";
@@ -50,10 +50,7 @@ export const PROJECTS: ProjectProps[] = [
   {
     title: "Project Sisyphus",
     role: "Developer & Designer",
-    techstack: [
-      <SiUnity key="unity" />,
-      <PiFileCSharp key="csharp" />,
-    ],
+    techstack: [<SiUnity key="unity" />, <PiFileCSharp key="csharp" />],
     thumbnail: sisyphus,
     github: "https://github.com/vinceednh/project-sisyphus",
     deployment: "https://vinceednh.itch.io/project-sisyphus",
@@ -135,8 +132,7 @@ export const PROJECTS: ProjectProps[] = [
     description:
       "Co-developed an edge computing app for lecturers and presenters measuring audience engagement using computer vision",
   },
-  
-  
+
   {
     title: "Chaosify",
     role: "Developer",
