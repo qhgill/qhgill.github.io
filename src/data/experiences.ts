@@ -6,7 +6,7 @@ export const EXPERIENCES = [
     organization: "Association for Computing Machinery at UCR (ACM@UCR)",
     role: "Project Lead and Software Developer",
     start: "January 2024",
-    end: "present",
+    end: "January 2026",
     icon: ACMUCR,
     description: [
       " Utilized Next.js, React, TailwindCSS, TypeScript, and Motion.dev to develop 8+ production ready websites for client organizations connecting communities with 200+ members.",
@@ -18,7 +18,7 @@ export const EXPERIENCES = [
     organization: "UCR Computer Science and Engineering Department",
     role: "Software Construction Grader",
     start: "September 2024",
-    end: "present",
+    end: "August 2026",
     icon: UCRENG,
     description: [
       "Assisted Software Construction course instructors in grading C++ programming projects for 500+ students.",
