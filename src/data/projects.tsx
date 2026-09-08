@@ -13,7 +13,18 @@ import {
   SiScikitlearn,
   SiJupyter,
   SiCss3,
+  SiUnity,
+  SiOculus,
+  SiDocker,
+  SiCloudflare,
+  SiRaspberrypi,
+  SiExpo,
+  SiSupabase,
+  SiGrafana,
+  SiInfluxdb,
+  SiNvidia
 } from "react-icons/si";
+import { PiFileCSharp } from "react-icons/pi";
 import { FaReact, FaFigma, FaAws } from "react-icons/fa";
 import { ProjectProps } from "@/components/projects/card";
 import starlight from "@/public/projects/starlight.png";
@@ -29,25 +40,38 @@ import h4b from "@/public/projects/h4bwebsite.png";
 import swim from "@/public/projects/swimwebsite.png";
 import robosub from "@/public/projects/robosubwebsite.png";
 import riftrewind from "@/public/projects/yuumaicover.png";
+import sisyphus from "@/public/projects/sisyphus.png";
+import scottyclimbs from "@/public/projects/scottyclimbs.png";
+import scottbot from "@/public/projects/scottbot.png";
+import tethr from "@/public/projects/tethr.png";
+import mindtrace from "@/public/projects/mindtrace.png";
 
 export const PROJECTS: ProjectProps[] = [
   {
-    title: "ACM Starlight",
-    role: "Director",
+    title: "Project Sisyphus",
+    role: "Developer & Designer",
     techstack: [
-      <FaReact key="react" />,
-      <SiNextdotjs key="nextjs" />,
-      <SiTypescript key="ts" />,
-      <SiTailwindcss key="tailwind" />,
-      <FaFigma key="figma" />,
-      <SiFirebase key="firebase" />,
-      <SiPrettier key="prettier" />,
+      <SiUnity key="unity" />,
+      <PiFileCSharp key="csharp" />,
     ],
-    thumbnail: starlight,
-    github: "https://github.com/acm-ucr/starlight",
+    thumbnail: sisyphus,
+    github: "https://github.com/vinceednh/project-sisyphus",
+    deployment: "https://vinceednh.itch.io/project-sisyphus",
     description:
-      "Developing a full-stack project application and management portal for ACM@UCR.",
-    deployment: "https://starlight-nine-sigma.vercel.app/",
+      "Led development and design of a Third Person roguelike game where your light is your life",
+  },
+  {
+    title: "Scotty Climbs",
+    role: "Developer & Designer",
+    techstack: [
+      <SiUnity key="unity" />,
+      <PiFileCSharp key="csharp" />,
+      <SiOculus key="oculus" />,
+    ],
+    thumbnail: scottyclimbs,
+    github: "https://github.com/CadeJordan/ScottyClimbs",
+    description:
+      "Co-developed and designed VR climbing game for the Meta Quest 2",
   },
   {
     title: "YuumAI",
@@ -66,6 +90,53 @@ export const PROJECTS: ProjectProps[] = [
     description:
       "Co-developed a predictive AI coach for League of Legends using AWS and SciKit-learn for the Riot x AWS Rift Rewind Hackathon 2025.",
   },
+  {
+    title: "ScottBot",
+    role: "Developer",
+    techstack: [
+      <SiRaspberrypi key="raspberrypi" />,
+      <SiPython key="python" />,
+      <SiTypescript key="ts" />,
+      <SiCloudflare key="cloudflare" />,
+      <SiDocker key="docker" />,
+    ],
+    thumbnail: scottbot,
+    github: "https://github.com/TeamScottBot/ScottBot",
+    description:
+      "Co-developed a food delivery bot prototype for UCR dining services",
+  },
+  {
+    title: "Tethr",
+    role: "Developer",
+    techstack: [
+      <FaReact key="react" />,
+      <SiExpo key="expo" />,
+      <SiTypescript key="ts" />,
+      <SiSupabase key="supabase" />,
+      <FaFigma key="figma" />,
+    ],
+    thumbnail: tethr,
+    github: "https://github.com/Kevinloritsch/tethr",
+    description:
+      "Co-developed a social accountability app encouraging consistency through connection",
+  },
+  {
+    title: "MindTrace",
+    role: "Developer",
+    techstack: [
+      <FaAws key="aws" />,
+      <SiPython key="python" />,
+      <SiGrafana key="grafana" />,
+      <SiInfluxdb key="influxdb" />,
+      <SiNvidia key="nvidia" />,
+    ],
+    thumbnail: mindtrace,
+    github: "https://github.com/CadeJordan/MindTrace",
+    description:
+      "Co-developed an edge computing app for lecturers and presenters measuring audience engagement using computer vision",
+  },
+  
+  
   {
     title: "Chaosify",
     role: "Developer",
@@ -99,6 +170,24 @@ export const PROJECTS: ProjectProps[] = [
     github: "https://github.com/qhgill/compiler-project",
     description:
       "Co-developed a rust based compiler including a lexer, parser, and IR code generator.",
+  },
+  {
+    title: "ACM Starlight",
+    role: "Director",
+    techstack: [
+      <FaReact key="react" />,
+      <SiNextdotjs key="nextjs" />,
+      <SiTypescript key="ts" />,
+      <SiTailwindcss key="tailwind" />,
+      <FaFigma key="figma" />,
+      <SiFirebase key="firebase" />,
+      <SiPrettier key="prettier" />,
+    ],
+    thumbnail: starlight,
+    github: "https://github.com/acm-ucr/starlight",
+    description:
+      "Developing a full-stack project application and management portal for ACM@UCR.",
+    deployment: "https://starlight-nine-sigma.vercel.app/",
   },
   {
     title: "AISC Website",

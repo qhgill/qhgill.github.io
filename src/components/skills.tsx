@@ -15,7 +15,12 @@ import {
   SiUnrealengine,
   SiHtml5,
   SiCss3,
+  SiUnity,
+  SiCloudflare,
+  SiExpo,
+  SiSupabase
 } from "react-icons/si";
+import { PiFileCSharp } from "react-icons/pi";
 import { FaGitAlt, FaAws } from "react-icons/fa";
 import { PiKanban } from "react-icons/pi";
 import { DiScrum } from "react-icons/di";
@@ -39,6 +44,9 @@ const Skills = () => {
           <ul className="ml-2 text-lg">
             <li className="flex items-center">
               <SiCplusplus /> <p className="pl-1">C++</p>
+            </li>
+            <li className="flex items-center">
+              <PiFileCSharp /> <p className="pl-1">C#</p>
             </li>
             <li className="flex items-center">
               <SiPython /> <p className="pl-1">Python</p>
@@ -74,6 +82,12 @@ const Skills = () => {
           </p>
           <ul className="ml-2 text-lg">
             <li className="flex items-center">
+              <SiUnrealengine /> <p className="pl-1">Unreal Engine 5</p>
+            </li>
+            <li className="flex items-center">
+              <SiUnity /> <p className="pl-1">Unity3D</p>
+            </li>
+            <li className="flex items-center">
               <SiNextdotjs /> <p className="pl-1">Next.js</p>
             </li>
             <li className="flex items-center">
@@ -83,13 +97,19 @@ const Skills = () => {
               <FaAws /> <p className="pl-1">AWS</p>
             </li>
             <li className="flex items-center">
+              <SiCloudflare /> <p className="pl-1">Cloudflare Workers</p>
+            </li>
+            <li className="flex items-center">
               <FaGitAlt /> <p className="pl-1">Git</p>
             </li>
             <li className="flex items-center">
               <SiGithub /> <p className="pl-1">GitHub</p>
             </li>
             <li className="flex items-center">
-              <SiUnrealengine /> <p className="pl-1">Unreal Engine 5</p>
+              <SiSupabase /> <p className="pl-1">Supabase</p>
+            </li>
+            <li className="flex items-center">
+              <SiExpo /> <p className="pl-1">Expo</p>
             </li>
             <li className="flex items-center">
               <SiFirebase /> <p className="pl-1">Firebase</p>

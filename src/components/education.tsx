@@ -26,19 +26,12 @@ const Education = () => {
             </p>
             <div className="text-lg md:text-2xl">
               <p className="font-semibold">
-                BS in Computer Science - 4.0 Overall GPA
+                BS in Computer Science - Summa Cum Laude - 4.0 Overall GPA
               </p>
-              <p className="italic">Fall 2022 - Expected Spring 2026</p>
+              <p className="italic">Fall 2022 - Spring 2026</p>
             </div>
             <p className="text-base md:text-lg">
-              Relevant Coursework: Machine Organization and Assembly, Upper
-              Division Data Structures and Algorithms, Software Construction,
-              Discrete Structures, Logic Design, Theory of Automata and Formal
-              Languages, Compiler Design, Design of Operating Systems, Design
-              and Architecture of Computer Systems, Artificial Intelligence.
-            </p>
-            <p className="italic text-lg md:text-2xl">
-              Planned MS in Computer Science Fall 2026 - Spring 2027
+              Data Structures and Algorithms, Discrete Structures, Formal Languages and Automata Theory, Machine Organization and Assembly Language Programming, Design and Architecture of Computer Systems, Design of Operating Systems, Compiler Design, Artificial Intelligence, Computer Graphics, Virtual Reality, Software Engineering, Edge Computing, Database Management Systems, Senior Design Projects in AI and Game Development
             </p>
           </div>
         </div>

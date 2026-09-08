@@ -28,7 +28,7 @@ const Contact = () => {
         ))}
       </div>
       <p className="">© Quin Gill</p>
-      <p className="pb-16">Last Updated: October 2025</p>
+      <p className="pb-16">Last Updated: September 2026</p>
     </div>
   );
 };
